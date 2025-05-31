@@ -62,7 +62,7 @@ do
 			inst = Instance.new("RemoteFunction")
 		end
 		inst.Name = REMOTE_NAMES [i]
-		inst.Parent = Binds
+		inst.Parent = Folder
 	end
 end
 
